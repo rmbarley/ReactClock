@@ -8,9 +8,8 @@ var Nav = () => {
           <ul className="menu">
             <li className="menu-text">React Time App</li>
             <li><IndexLink to="/" activeClassName="active" activeStyle={ {fontWeight: 'bold'} }>Timer</IndexLink></li>
-            <li><Link to="/" activeClassName="active" activeStyle={ {fontWeight: 'bold'} }>Countdown</Link></li>
-
-            </ul>
+            <li><Link to="/countdown" activeClassName="active" activeStyle={ {fontWeight: 'bold'} }>Countdown</Link></li>
+          </ul>
         </div>
         <div className="top-bar-right">
           <ul className="menu">

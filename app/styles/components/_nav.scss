@@ -3,11 +3,17 @@
 }
 
 .top-bar {
+
   .menu-text {
     color: white;
   }
-}
 
-.menu > li > a {
-  display: inline;
+  .menu > .menu-text > a {
+    display: inline;
+    padding: 0;
+  }
+
+  .active-link {
+    font-weight: bold;
+  }
 }
